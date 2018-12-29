@@ -123,7 +123,7 @@ const Content = props => {
       </ul>
     </main>
   );
-  // return content.map((section, i) => <Deck content={section} />);
+  return content.map((section, i) => <Deck content={section} />);
 };
 
 export default Content;
