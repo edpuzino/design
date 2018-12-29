@@ -13,13 +13,13 @@ const Card = props => {
         />
         <figcaption>{props.content.media.title}</figcaption>
       </figure>
-      <div className="links">
+      <button className="punch">
         {props.content.links.map((link, i) => (
           <a clasName={link.type} href={link.href}>
             {link.title}
           </a>
         ))}
-      </div>
+      </button>
     </div>
   );
 };
